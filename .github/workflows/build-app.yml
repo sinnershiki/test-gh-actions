@@ -4,7 +4,9 @@ name: build-app
 
 # Controls when the workflow will run
 on:
-  push
+  push:
+    paths:
+      - apps/**
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
